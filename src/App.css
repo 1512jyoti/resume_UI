@@ -1,0 +1,213 @@
+.App {
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav-container {
+  background-color: #282c34;
+  min-width: 100vh;
+  padding: 0.4em;
+  border: 0.5px solid rgba(0, 0, 0, 0.399);
+}
+.nav-container img{
+  max-height: 2em;
+  border-radius: 50%;
+}
+
+.userName {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.nav-container button {
+  position: absolute;
+  right: 0rem;
+  font-size: 1.7em;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  top: -3px;
+}
+
+.header-container {
+  text-align: center;
+  max-height: 57rem;
+  padding: 20px 50px;
+}
+
+.header-container #col2{
+  text-align: left;
+}
+
+.header-container img {
+  max-height: 300px;
+  border: 10px solid rgba(211, 211, 211, 0.207);
+  border-radius: 50%;
+}
+
+#data {
+  color: rgba(211, 211, 211, 0.821);
+}
+
+#name {
+  color: white;
+}
+
+#position {
+  color: rgba(211, 211, 211, 0.821);
+}
+
+#download-button {
+  margin: 5px;
+  display: inline-block;
+}
+
+#contact-button {
+  margin: 5px;
+  display: inline-block;
+}
+
+.skills{
+  padding: 20px 20px;
+  color: white;
+}
+#progress-bar .progress{
+  width: 100px;
+  height: 2px;
+}
+.skill-icon{
+  margin: 5px;
+  color: blue;
+  font-size: 30px;
+  display: inline-block;
+}
+
+ .skill-detail h6{
+  display: inline-block;
+}
+
+ .skill-detail p{
+  color: rgba(211, 211, 211, 0.821);
+  display: inline-block;
+  position: relative;
+  left: 40px;
+}
+.Testimonials{
+  margin: 12px;
+  width: 100%;
+  padding: 5px;
+  color: white;
+}
+.Testimonials img{
+  border-radius: 50%;
+  max-height: 60px;
+  position: relative;
+  left: 1px;
+  top: 30px;
+}
+.Testimonials-item{
+  padding: 0px 0px 20px 0px;
+}
+.Testimonials-data{
+  color: rgba(211, 211, 211, 0.821);
+  margin: 0px 20px;
+  padding: 20px 10px 0px 40px;
+  width: 600px;
+  border: 1px solid rgba(211, 211, 211, 0.386);
+  border-radius: 10px;
+  background-color: rgba(211, 211, 211, 0.055);
+}
+.Testimonials-name{
+  color: white;
+}
+.Clients{margin-top: 20px;
+  padding: 0px 20px;
+  color: white;
+}
+.Clients-item, col{
+  padding: 20px 40px 20px 300px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: rgba(211, 211, 211, 0.821);
+}
+.fun-facts{
+  padding: 20px 20px 100px 20px;
+  color: white;
+}
+.fun-container{
+  text-align: center;
+  color: rgba(211, 211, 211, 0.821);
+  background-color: rgba(211, 211, 211, 0.136);
+  padding: 10px 30px;
+  justify-content: center;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 10px;
+}
+.fun-item{
+  padding: 20px 100px;
+}
+.fun-icon{
+  padding: 10px 0px;
+  color: blue;
+  font-size: 30px;
+}
+.footer-container{
+  border: 1px solid rgba(211, 211, 211, 0.293);
+  padding: 0px 20px;
+  color: white;
+}
+.footer-item{
+  color: lightgray
+}
+.footer-text{
+  max-width: 10rem;
+  margin-right: 5px;
+  display: inline-block;
+  font-weight: lighter;
+}
+#credit{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
