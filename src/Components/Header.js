@@ -14,6 +14,7 @@ function Card1() {
         <Col id='col2'>
           <div id="position">
             <h6>Frontend-developer</h6>
+	  <h2>For testing</h2>
           </div>
           <div id="name">
             <h2>Alex Smith</h2>
